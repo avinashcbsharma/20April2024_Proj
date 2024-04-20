@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2rem;
+}
+#card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#pincode_card{
+    min-width: 500px;    
+    border: 2px solid black;
+    margin: 42px 42px 0px 0px;
+    border-radius: 5px;   
+    box-sizing: border-box;
+    padding: 20px;
+}
+#btn{
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    background-color: black;
+    border: 1px solid black;
+    color:#fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#InPincode,#fltr{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    width: 83%;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px ;
+    border:2px solid black;
+    padding: 1rem;
+}
